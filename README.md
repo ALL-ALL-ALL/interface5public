@@ -29,7 +29,6 @@ L'achat comprend :
 - Illustration au format vectoriel et bitmap
 - Documentation d'intégration détaillée
 - Support technique post-achat
-- Mise à jour gratuite pendant 6 mois
 
 *Note : Des versions fonctionnelles avec authentification réelle pourront être proposées ultérieurement. Les acheteurs de la version statique actuelle bénéficieront de tarifs préférentiels pour ces mises à niveau.*
 
@@ -53,35 +52,26 @@ Achetez cette interface directement en [(URL à venir)]* ou contactez-moi pour t
 ## Extrait de code
 Voici un aperçu du style de code utilisé (version limitée) :
 ```swift
-ZStack(alignment: .trailing){
-    
-    if showpassword{
-        TextField("Email", text: $password)
-            .keyboardType(.emailAddress)
-            .padding()
-            .overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color.gray, lineWidth: 2)
-            )
-        
-    }else{
-        SecureField("password", text: $password)
-            .padding()
-            .overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color.gray, lineWidth: 2)
-            )
-            
-    }
-    
-    Button {
-        showpassword.toggle()
-    } label: {
-        Image(systemName: showpassword ? "eye" : "eye.slash")
-            .padding()
-    
-    }
-}
+HStack(spacing: 30){
+                    
+                    
+                    // button apple
+                    Button {
+                        //action à mettre
+                    } label: {
+                        Image("a")
+                            .resizable()
+                            .scaledToFit()
+                    }
+                    
+                    // button facebook
+                    Button {
+                        //action à mettre
+                    } label: {
+                        Image("g")
+                            .resizable()
+                            .scaledToFit()
+                    }
 ```
 
 ## Licence
