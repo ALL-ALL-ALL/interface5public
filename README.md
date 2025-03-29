@@ -3,6 +3,7 @@ Une interface de connexion moderne et élégante pour applications iOS, dévelop
 
 <img width="298" alt="interface5" src="https://github.com/user-attachments/assets/944d87d2-b7d8-4344-a4ab-8d3b68309cde" />
 
+**Note sur les visuels :** Les captures d'écran présentées sont des exemples de design. Les couleurs et éléments visuels spécifiques (comme le logo "A") sont personnalisables et servent uniquement d'illustration. L'achat comprend la structure de l'interface et le code source, que vous pourrez adapter à votre propre identité visuelle.
 
 
 ## Caractéristiques
